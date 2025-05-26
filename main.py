@@ -33,7 +33,7 @@ def main():
     
     # Create dataset
     # Replace with your dataset path
-    full_dataset = CardiacMRIDataset(image_dir="C:/Users/Mertcan/Desktop/gata/Real-Images", 
+    full_dataset = CardiacMRIDataset(image_dir="path-to-your-data-folder", 
                                      transform=train_transform)
     
     # Split into train and validation sets
